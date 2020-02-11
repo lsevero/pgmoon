@@ -2,7 +2,7 @@ package = "pgmoon"
 version = "dev-1"
 
 source = {
-  url = "git://github.com/leafo/pgmoon.git"
+  url = "git://github.com/lsevero/pgmoon.git"
 }
 
 description = {
@@ -17,6 +17,8 @@ dependencies = {
   "lua >= 5.1",
   "luabitop",
   "lpeg",
+  "luaossl",
+  "luasec" 
 }
 
 build = {
